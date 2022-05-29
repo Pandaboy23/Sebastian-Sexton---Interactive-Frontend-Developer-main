@@ -15,6 +15,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  margin: 0;
 }
 
 .navbar__container {
@@ -26,6 +27,7 @@
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 50px;
+  margin: 0;
 }
 
 .navbar__logo {
@@ -50,7 +52,7 @@
 
 .navbar__image {
   position: absolute;
-  top: 8px;
+  top: 6px;
   left: 350;
   z-index: 1;
   width: 60px;
@@ -127,7 +129,7 @@
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
     background: #fff;
-    color: #fff;
+
   }
 
   .navbar__item {
@@ -167,7 +169,6 @@
 }
 
 h1 {
-  color: #fff;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
@@ -175,19 +176,16 @@ h1 {
 }
 
 h3 {
-  color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
 h6 {
-  color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
 a {
-  color: #fff;
   text-decoration: none;
   text-align: center;
 }
@@ -218,6 +216,7 @@ a {
   width: 100%;
   background: #1c1d25;
   padding: 8% 0;
+  margin: 0;
 }
 
 .footer,
@@ -364,7 +363,6 @@ a {
 }
 
 .footer-logo-top-icon {
-  color: #fff;
 }
 
 .slideshow-container {
@@ -509,13 +507,85 @@ img {
   border-style: none;
 }
 
-img,
-svg {
-  vertical-align: middle;
-}
-
 *,
 :after,
 :before {
   box-sizing: border-box;
+}
+
+.infobox biography vcard {
+  margin: 0.5em 0 0.5em 1em;
+}
+
+.infobox {
+  border: 1px solid #a2a9b1;
+  border-spacing: 3px;
+  background-color: #f8f9fa;
+  color: black;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0.2em;
+  float: right;
+  clear: right;
+  font-size: 88%;
+  line-height: 1.5em;
+  width: 22em;
+  margin: 5px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #0645ad;
+  background: none;
+}
+
+.infobox .infobox-header, .infobox .infobox-subheader, .infobox .infobox-image, .infobox .infobox-full-data, .infobox .infobox-below {
+  text-align: center;
+  margin: 5px;
+}
+
+.image {
+  border: 0;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.title__db {
+  color: #1c1d25;
+}
+
+li {
+  text-align: -webkit-match-parent;
+  text-decoration: none;
+  margin: 5px;
+}
+ul {
+  list-style-type: disc;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.Db__wrapper {
+  width: 100%;
+  margin: 1rem;
+}
+
+.subheading__db {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.paraph__db {
+  font-size: 1.2rem;
+  margin: 1rem;
 }
