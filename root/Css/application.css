@@ -589,3 +589,10 @@ ul {
   font-size: 1.2rem;
   margin: 1rem;
 }
+
+.hero-text {
+  font-size: 1.5rem;
+  color: aquamarine;
+  font-weight: bold;
+  margin: 1rem;
+}
